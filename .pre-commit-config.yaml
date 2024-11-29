@@ -1,0 +1,14 @@
+default_stages: [commit]
+# список репозиториев с хуками
+repos:
+    # где находится скрипт хука
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.12.0 # указываем версию
+    # хуков может быть несколько, указываем какой мы хотим
+    hooks:
+      - id: isort
+    # следующий хук
+  - repo: https://github.com/psf/black
+    rev: 23.1.0
+    hooks:
+      - id: black

@@ -1,2 +1,4 @@
 # main.py
-print("Привет!")
+a, b = 4, 3
+c = a**b
+print(c)

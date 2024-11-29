@@ -64,7 +64,7 @@ def main():
         print(f'[{card_num + 1}] {current_card.name} | {current_card.color}')
         input('Нажмите enter, чтоб скрыть карту:')
         os.system('cls')
-    print('Приятной игры!')
+    print('Приятной игры!!')
 
 
 if __name__ == '__main__':
